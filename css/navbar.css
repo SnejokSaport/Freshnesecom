@@ -1,14 +1,21 @@
+.navbar {
+    padding: 0 calc(50% - 595px);
+    background: #f9f9f9;
+    margin-top: 16px;
+}
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 .navbar_menu_link {
     font-family: "Poppins";
     font-weight: 500;
     color: #151515;
     text-decoration: none;
-}
-.navbar_menu {
-    display: flex;
-    justify-content: center;
-    gap: 54px;
-    list-style: none;
 }
 .navbar_menu_link {
     display: flex;
