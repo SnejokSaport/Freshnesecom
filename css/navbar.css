@@ -1,0 +1,33 @@
+.navbar {
+    padding: 0 calc(50% - 595px);
+    background: #f9f9f9;
+    margin-top: 16px;
+}
+.navbar-menu {
+    display: flex;
+    align-items: center;
+    gap: 52px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar-menu_link {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: #151515;
+    text-decoration: none;
+}
+.navbar-menu_link {
+    display: flex;
+}
+.navbar-menu_link::after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-repeat: no-repeat;
+}
+.navbar-menu_link::after {
+    background-image: url(../img/navbar/navbar-arrow.svg);
+    margin-top: 10px;
+    margin-left: 6px;
+}
